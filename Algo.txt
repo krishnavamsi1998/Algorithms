@@ -1,0 +1,112 @@
+Greedy algorithm :
+
+It is one of the optimization algorithms make
+the optimal choice at each step and finds the 
+overall optimal solution to the problem
+
+example :
+
+knapsack problem :
+
+Given a set of objects each one having some 
+profit and a weight we need to fit those in a bag
+of a certain capacity such that we shuld get max
+profit without exceeding the capacity of the 
+bag
+
+Spanning Tree :
+
+It is subgraph of a graph having all the vertices 
+but having minimum no.of vertices that is 
+n-1
+
+It should not contain any cycle
+
+No.of spanning trees formulae:
+EC(n-1)-k
+
+where E is the no.of edges
+
+n is no.of vertices 
+
+k is no.of cycles
+
+
+Prims Algorithm :
+
+It is a greedy algorithm which helps to 
+determine minimum cost spanning tree
+
+Time complexity : O(E+LOGV)
+
+Approch:
+
+1.First select minimum cost edge
+2.Next seelct minimum cose edge which is
+connected to the already selected one
+3.repeat above steps untill u cover all vertices
+
+Kruskals algorithm :
+
+Approach :
+
+select minimum edge which may or may not 
+be connected to already selected edges
+
+Time complexity : O(ELOGV)
+ 
+Dijkstra's algorithm :
+
+It is also called shortest path algorithm which
+follows greedy approach
+
+d(u)+c(u,v) < d[v]
+d[v]=d(u)+c(u,v)
+
+Time Complexity : O(n2)
+
+Dynamic Programming :
+
+It is one of the optimization programming 
+approach where a problem is divided
+into sub problems and the results of these 
+sub problems are stored so , when ever we 
+see the same sub problem we can get the result
+that is stored
+
+It helps to avoid solving of over lapping
+subproblems 
+
+This is called memoization
+
+Example : fibo
+
+apsp :
+
+Finding shortest path among all the pairs
+
+a[i,j]=min(a[i,j] , a[i,k]+a[k,i])
+
+
+Back tracking :
+
+You start trying a problem with some approah
+when the solution seems not satisfying the
+condition you go back and start solving by 
+different approach
+
+ex : N-QUEENS problem :
+
+2 4 1 3
+
+
+
+
+
+
+
+
+
+
+  
+
